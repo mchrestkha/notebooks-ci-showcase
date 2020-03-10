@@ -4,8 +4,8 @@ NOTEBOOK_FILE_NAME="${1}"
 SCALE_TIER="${2}"
 CONTAINER_URI="${3}"
 
-NOTEBOOK_GCS_PATH="gs://caip_notebooks_demo_temp/${NOTEBOOK_FILE_NAME}"
-NOTEBOOK_OUT_GCS_PATH="gs://caip_notebooks_demo_temp/out-${NOTEBOOK_FILE_NAME}"
+NOTEBOOK_GCS_PATH="gs://mchrestkha-demo-env-temp/${NOTEBOOK_FILE_NAME}"
+NOTEBOOK_OUT_GCS_PATH="gs://mchrestkha-demo-env-temp/out-${NOTEBOOK_FILE_NAME}"
 
 gsutil cp "${NOTEBOOK_FILE_NAME}" "${NOTEBOOK_GCS_PATH}"
 
